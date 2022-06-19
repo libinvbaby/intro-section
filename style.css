@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight:700;
+    font-size:80px;
+} 
+h2, h3, h4, h5 ,h6, p{
+    font-family: 'Epilogue', sans-serif;
+}
+.nav-item{
+    padding:20px;
+}
+.nav-link{
+    font-family: 'Epilogue', sans-serif;
+    color:#000;
+}
+.nav-link:hover{
+    color:#000;
+}
+.nav-link:focus{
+    color:#000;
+}
+.dropdown-item{
+    font-family: 'Epilogue', sans-serif;
+}
+.btn{
+    font-family: 'Epilogue', sans-serif;
+
+}
+.img-logo{
+    padding:0 15px;
+}
+.navbar-brand{
+    padding:0 20px;
+}
+.mobile-img{display:none;}
+
+@media screen and (max-width:768px){
+    .desktop-img{
+        display:none;
+        
+    }
+    .mobile-img{
+        display:block;
+        margin-top: 25px;
+    }
+    h1{
+        font-size:30px;
+    }
+    .hone-inline{
+        display:inline-block;
+    }
+    .para{
+        text-align:center;
+        
+    }
+    .button{
+        text-align:center;
+    }
+    .logos{
+        text-align:center;
+    }
+    .img-logo{
+         padding:20px ;
+    }
+    .heading{
+        text-align:center;
+    }
+}
